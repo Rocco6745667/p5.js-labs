@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Climate Stripes with lil-gui</title>
+  <meta charset="UTF-8">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+  <!-- Load lil-gui library before sketch.js -->
+  <script src="https://cdn.jsdelivr.net/npm/lil-gui@0.17/lil-gui.min.js"></script>
+  <style>
+    /* Basic styling to position canvas and GUI */
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 20px;
+    }
+    #gui-container {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      z-index: 100;
+    }
+  </style>
+</head>
+<body>
+  <div id="gui-container"></div>
+  <script src="sketch.js"></script>
+</body>
+</html>
